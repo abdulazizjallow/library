@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIBRARY</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Library</h1>
+    </header>
+    <main>
+      <div class="add_book">
+        <button class="btn_add">+Add Book</button>
+      </div>
+      <div class="card_container">
+        <!--  
+        <div class="book">
+          <p>accv</p>
+          <p>aziz</p>
+          <p>555</p>
+          <button class="btn btn_read">Read</button>
+          <button class="btn btn_remove">Remove</button>
+        </div>
+        -->
+      </div>
+      <form class="form">
+        <div class="form_container">
+          <h4>Add new book</h4>
+          <input
+            type="text"
+            placeholder="name"
+            class="input-content"
+            id="name"
+          />
+          <input
+            type="text"
+            placeholder="author"
+            class="input-content"
+            id="author"
+          />
+          <input
+            type="number"
+            placeholder="pages"
+            class="input-content"
+            id="pages"
+          />
+          <div class="checkbox_container">
+            <label for="read">Have you read it?</label>
+            <input type="checkbox" id="read" />
+          </div>
+          <input type="submit" id="submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

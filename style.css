@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  background-color: #f0eef1;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #fffbfb;
+  font-size: 1.8rem;
+}
+
+main {
+  padding: 13px;
+}
+
+.add_book {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0px;
+}
+
+.btn_add {
+  width: 200px;
+  padding: 10px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.btn_add:hover {
+  border-radius: 8px;
+  background-color: #d8d8d8;
+}
+
+.card_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fffbfb;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.btn {
+  width: 300px;
+  padding: 10px 0px;
+  margin: 8px 0px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn_read {
+  background-color: #8fe58c;
+}
+
+.btn_notread {
+  background-color: #ff9c9c;
+}
+
+.btn_remove {
+  background-color: #d8d8d8;
+}
+
+.form {
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 550px;
+  z-index: 5;
+  display: none;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #fffbfb;
+  border-radius: 8px;
+}
+
+.input-content {
+  width: 250px;
+  padding: 10px 5px;
+  margin: 8px;
+  background-color: #ffffff;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.checkbox_container {
+  margin: 8px 0px;
+}
+
+label {
+  font-size: 1.3rem;
+}
+
+#submit {
+  width: 250px;
+  padding: 10px 5px;
+  margin: 8px;
+  background-color: #8fe58c;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
